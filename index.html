@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Muniz Tur Receptivo | Turismo em Foz do Iguaçu</title>
+
+  <meta name="description" content="Muniz Tur Receptivo é uma agência de turismo familiar de Foz do Iguaçu.">
+  <meta name="author" content="Muniz Tur Receptivo">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-content">
+    <img src="imagem/logo.jpeg" alt="Muniz Tur Receptivo" class="logo-img">
+
+    <nav class="nav" id="nav">
+      <ul>
+        <li><a href="#home" data-i18n="menu_home">Início</a></li>
+        <li><a href="#sobre" data-i18n="menu_about">Sobre</a></li>
+        <li><a href="#galeria" data-i18n="menu_gallery">Galeria</a></li>
+        <li><a href="#contato" data-i18n="menu_contact">Contato</a></li>
+      </ul>
+    </nav>
+
+    <select id="languageSwitcher">
+      <option value="pt">PT</option>
+      <option value="es">ES</option>
+      <option value="en">EN</option>
+    </select>
+
+    <button class="menu-toggle" id="menu-toggle">☰</button>
+  </div>
+</header>
+
+<main id="home">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero-content">
+    <h1 data-i18n="hero_title">Descubra Foz do Iguaçu com quem conhece a região</h1>
+    <p data-i18n="hero_subtitle">Agência de turismo familiar e local</p>
+    <a href="#contato" class="btn" data-i18n="hero_btn">Fale Conosco</a>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" class="section">
+  <div class="container">
+    <h2 class="section-title" data-i18n="about_title">Quem Somos</h2>
+    <p data-i18n="about_text">
+      A Muniz Tur Receptivo é uma agência de turismo familiar e local, situada em Foz do Iguaçu, especializada em oferecer passeios de qualidade com preços justos. Conhecemos a região como ninguém e trabalhamos para que cada visitante aproveite o melhor da cidade sem gastar mais do que precisa.
+
+Nosso diferencial está no atendimento próximo, transparente e personalizado, sempre buscando as melhores opções de roteiros, horários e valores. Atuamos com os principais atrativos de Foz do Iguaçu, garantindo conforto, segurança e excelente custo-benefício em cada passeio.
+
+Aqui, você viaja com quem é da cidade, confia no que faz e se preocupa de verdade com a sua experiência.
+    </p>
+  </div>
+</section>
+
+<!-- GALERIA -->
+<section id="galeria" class="section">
+  <div class="container">
+    <h2 class="section-title" data-i18n="gallery_title">Galeria de Foz do Iguaçu</h2>
+    <div class="gallery">
+      <img src="imagem/capa.jpg">
+      <img src="imagem/fff.jpg">
+      <img src="imagem/templo.jpg">
+      <img src="imagem/mesquita.jpg">
+      
+
+  </div>
+</section>
+
+<!-- MAPA -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title" data-i18n="map_title">Onde Estamos</h2>
+    <iframe
+      src="https://www.google.com/maps?q=Foz%20do%20Iguaçu%20PR&output=embed"
+      loading="lazy">
+    </iframe>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="section">
+  <div class="container">
+    <h2 class="section-title" data-i18n="contact_title">Contato</h2>
+    <form class="form">
+      <input type="text" placeholder="Nome">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Mensagem"></textarea>
+      <button class="btn" type="submit" data-i18n="contact_btn">Enviar</button>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2026 Muniz Tur Receptivo • Foz do Iguaçu - PR</p>
+</footer>
+
+<!-- WhatsApp -->
+<a href="https://wa.me/5545999999999" class="whatsapp" target="_blank">💬</a>
+
+<button id="back-to-top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
